@@ -6,7 +6,7 @@ from io import BytesIO
 # Set up our app
 st.set_page_config(page_title="My App", layout="wide")
 st.title("Data Sweeper")
-st.write("Welcome to my App, this is Tahirah Roohi making a data cleaning app using Streamlit.")
+st.write("Welcome to my app! I’m Tahirah Roohi, building a data-cleaning app using Streamlit.")
 
 uploaded_file = st.file_uploader("Upload Your Files (CSV or Excel)", type=["csv", "xlsx"], accept_multiple_files=True)
 
